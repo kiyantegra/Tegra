@@ -346,16 +346,28 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
+      - All - تست پینگ
+      - All - انتخاب دستی
       - همراه اول
       - ایرانسل
-  - name: All - UrlTest
+  - name: All - تست پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
       - همراه اول
       - ایرانسل
+  - name: All - انتخاب دستی
+    type: select
+    url: http://clients3.google.com/generate_204
+    interval: 10
+    proxies:
+      - همراه اول
+      - ایرانسل
+  - name: همراه اول
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 10
     proxies:
       - آلمان 2-MCI-همراه اول
       - آلمان 1-MCI-همراه اول
@@ -364,7 +376,7 @@ proxy-groups:
       - آلمان 7-MCI-همراه اول
       - آلمان 4-MCI-همراه اول
       - آلمان 3-MCI-همراه اول
-  - name: Original-ایرانسل
+  - name: ایرانسل
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
