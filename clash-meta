@@ -347,45 +347,15 @@ proxy-groups:
     type: select
     proxies:
       - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-همراه اول
-      - Original-ایرانسل
+      - همراه اول
+      - ایرانسل
   - name: All - UrlTest
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - Original-همراه اول
-      - Original-ایرانسل
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-همراه اول
-      - Original-ایرانسل
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-همراه اول
-      - Original-ایرانسل
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-همراه اول
-      - Original-ایرانسل
-  - name: Original-همراه اول
-    type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 10
+      - همراه اول
+      - ایرانسل
     proxies:
       - آلمان 2-MCI-همراه اول
       - آلمان 1-MCI-همراه اول
