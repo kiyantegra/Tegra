@@ -348,7 +348,7 @@ proxy-groups:
     proxies:
       - همراه اول
       - ایرانسل
-  - name: همراه اول
+  - name: همراه اول-تست پسنگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
@@ -360,7 +360,7 @@ proxy-groups:
       - آلمان 7-MCI-همراه اول
       - آلمان 4-MCI-همراه اول
       - آلمان 3-MCI-همراه اول
-  - name: ایرانسل
+  - name: ایرانسل-تست پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
