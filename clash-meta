@@ -346,8 +346,8 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - همراه اول
-      - ایرانسل
+      - همراه اول-تست پسنگ
+      - ایرانسل-تست پینگ
   - name: همراه اول-تست پسنگ
     type: url-test
     url: http://clients3.google.com/generate_204
