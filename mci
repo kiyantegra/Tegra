@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：20-11-2023 02:25:10
+# 创建时间：20-11-2023 02:39:37
 # 使用模版：V2RaySE 默认模版
 # 节点数量：7
 ####################################
@@ -86,13 +86,13 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"آلمان 1-MCI","type":"vless","server":"[","port":null,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"آلمان 2-MCI","type":"vless","server":"[","port":null,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"ger2.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"آلمان 3-MCI","type":"vless","server":"[","port":null,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger3.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"آلمان 4-MCI","type":"vless","server":"[","port":null,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger4.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"آلمان 5-MCI","type":"vless","server":"[","port":null,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"آلمان 6-MCI","type":"vless","server":"[","port":null,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"آلمان 7-MCI","type":"vless","server":"[","port":null,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 1-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 2-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"ger2.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 3-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger3.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 4-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger4.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 5-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 6-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"آلمان 7-MCI","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
