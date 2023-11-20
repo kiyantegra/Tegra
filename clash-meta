@@ -17,109 +17,18 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: هلند 1-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: false
-    servername: ames.xidax61188.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ames.xidax61188.workers.dev
-    client-fingerprint: randomized
-  - name: ' (A) آلمان 1-'
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: 987cb848-2a42-4d56-8025-237b82be2985
-    tls: false
-    servername: ger.doostankiyan.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger.doostankiyan.workers.dev
-    client-fingerprint: randomized
-  - name: آمریکا 2-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: false
-    servername: usa2.habeh27673.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: usa2.habeh27673.workers.dev
-    client-fingerprint: randomized
-  - name: هلند 2-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: 987cb848-2a42-4d56-8025-237b82be2985
-    tls: false
-    servername: ned.kiyanultraspeed.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ned.kiyanultraspeed.workers.dev
-    client-fingerprint: randomized
-  - name: آمریکا 1-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: 81b40464-4815-4474-a491-58871d0af559
-    tls: false
-    servername: usa.tejole2683.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: usa.tejole2683.workers.dev
-    client-fingerprint: randomized
-  - name: آلمان 4-MCI-
+  - name: ' (A) آلمان 1-MCI-'
     type: vless
     server: 108.162.194.28
     port: 443
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    uuid: 987cb848-2a42-4d56-8025-237b82be2985
     tls: true
-    servername: ger4.tegra.ultra.master.kiyan.online
+    servername: ger.tegra.ultra.master.kiyan.online
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger4.tegra.ultra.master.kiyan.online
-    client-fingerprint: chrome
-  - name: آلمان 6-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: false
-    servername: ger6.lepeyop919.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger6.lepeyop919.workers.dev
-    client-fingerprint: randomized
-  - name: آلمان 5-MCI-
-    type: vless
-    server: 108.162.194.28
-    port: 443
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: true
-    servername: ger5.tegra.ultra.master.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger5.tegra.ultra.master.kiyan.online
+        host: ger.tegra.ultra.master.kiyan.online
     client-fingerprint: chrome
   - name: آلمان 2-
     type: vless
@@ -134,84 +43,32 @@ proxies:
       headers:
         host: ger2.jefihen900.workers.dev
     client-fingerprint: randomized
-  - name: دانمارک-
+  - name: ' (B) آلمان 1-MCI-'
     type: vless
     server: 108.162.194.28
-    port: 80
-    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
-    tls: false
-    servername: den.fixog76731.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: den.fixog76731.workers.dev
-    client-fingerprint: randomized
-  - name: فرانسه-
-    type: vless
-    server: 108.162.194.28
-    port: 80
+    port: 443
     uuid: 987cb848-2a42-4d56-8025-237b82be2985
-    tls: false
-    servername: fr.kiyandoostan1245.workers.dev
+    tls: true
+    servername: gerb.tegra.ultra.master.kiyan.online
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: fr.kiyandoostan1245.workers.dev
-    client-fingerprint: randomized
-  - name: کره-
+        host: gerb.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: کره-MCI-
     type: vless
     server: 108.162.194.28
-    port: 80
+    port: 443
     uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
-    tls: false
-    servername: kor.cemoped858.workers.dev
+    tls: true
+    servername: kor.tegra.ultra.master.kiyan.online
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: kor.cemoped858.workers.dev
-    client-fingerprint: randomized
-  - name: چین-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
-    tls: false
-    servername: hon.rasikaf913.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hon.rasikaf913.workers.dev
-    client-fingerprint: randomized
-  - name: ' (B) آلمان 1-'
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: 987cb848-2a42-4d56-8025-237b82be2985
-    tls: false
-    servername: ger-b.dopew47926.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger-b.dopew47926.workers.dev
-    client-fingerprint: randomized
-  - name: آلمان 7-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: false
-    servername: ger7.maviyo5923.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger7.maviyo5923.workers.dev
-    client-fingerprint: randomized
+        host: kor.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
   - name: آلمان 4-
     type: vless
     server: 108.162.194.28
@@ -225,96 +82,109 @@ proxies:
       headers:
         host: ger4.nexad50946.workers.dev
     client-fingerprint: randomized
-  - name: آلمان 3-
+  - name: آمریکا 2-
     type: vless
     server: 108.162.194.28
     port: 80
     uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
     tls: false
-    servername: ger3.ninof68954.workers.dev
+    servername: usa2.habeh27673.workers.dev
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger3.ninof68954.workers.dev
+        host: usa2.habeh27673.workers.dev
     client-fingerprint: randomized
-  - name: آلمان 5-
+  - name: آلمان 6-
     type: vless
     server: 108.162.194.28
     port: 80
     uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
     tls: false
-    servername: ger5.ravesib644.workers.dev
+    servername: ger6.lepeyop919.workers.dev
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger5.ravesib644.workers.dev
+        host: ger6.lepeyop919.workers.dev
     client-fingerprint: randomized
-  - name: سنگاپور-
+  - name: ' (A) آلمان 1-'
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 987cb848-2a42-4d56-8025-237b82be2985
+    tls: false
+    servername: ger.doostankiyan.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger.doostankiyan.workers.dev
+    client-fingerprint: randomized
+  - name: دانمارک-
     type: vless
     server: 108.162.194.28
     port: 80
     uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
     tls: false
-    servername: sin.sinoc25163.workers.dev
+    servername: den.fixog76731.workers.dev
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: sin.sinoc25163.workers.dev
+        host: den.fixog76731.workers.dev
     client-fingerprint: randomized
-  - name: آلمان 1-MCI-
+  - name: ژاپن-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: true
+    servername: jap.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: jap.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: ' (B) آلمان 1-'
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 987cb848-2a42-4d56-8025-237b82be2985
+    tls: false
+    servername: ger-b.dopew47926.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger-b.dopew47926.workers.dev
+    client-fingerprint: randomized
+  - name: آمریکا 2-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: true
+    servername: usa2.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: usa2.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: هلند 2-MCI-
     type: vless
     server: 108.162.194.28
     port: 443
     uuid: 987cb848-2a42-4d56-8025-237b82be2985
     tls: true
-    servername: ger.tegra.ultra.master.kiyan.online
+    servername: ned.tegra.ultra.master.kiyan.online
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger.tegra.ultra.master.kiyan.online
-    client-fingerprint: chrome
-  - name: آلمان 7-MCI-
-    type: vless
-    server: 108.162.194.28
-    port: 443
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: true
-    servername: ger7.tegra.ultra.master.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger7.tegra.ultra.master.kiyan.online
-    client-fingerprint: chrome
-  - name: ژاپن-
-    type: vless
-    server: 108.162.194.28
-    port: 80
-    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
-    tls: false
-    servername: jap.leverab904.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: jap.leverab904.workers.dev
-    client-fingerprint: randomized
-  - name: آلمان 3-MCI-
-    type: vless
-    server: 108.162.194.28
-    port: 443
-    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
-    tls: true
-    servername: ger3.tegra.ultra.master.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger3.tegra.ultra.master.kiyan.online
+        host: ned.tegra.ultra.master.kiyan.online
     client-fingerprint: chrome
   - name: آلمان 2-MCI-
     type: vless
@@ -329,6 +199,188 @@ proxies:
       headers:
         host: ger2.tegra.ultra.master.kiyan.online
     client-fingerprint: chrome
+  - name: هلند 2-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 987cb848-2a42-4d56-8025-237b82be2985
+    tls: false
+    servername: ned.kiyanultraspeed.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ned.kiyanultraspeed.workers.dev
+    client-fingerprint: randomized
+  - name: هلند 1-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: false
+    servername: ames.xidax61188.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ames.xidax61188.workers.dev
+    client-fingerprint: randomized
+  - name: سنگاپور-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: false
+    servername: sin.sinoc25163.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: sin.sinoc25163.workers.dev
+    client-fingerprint: randomized
+  - name: آلمان 3-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: false
+    servername: ger3.ninof68954.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger3.ninof68954.workers.dev
+    client-fingerprint: randomized
+  - name: چین-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: true
+    servername: hon.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hon.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: هلند 1-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: true
+    servername: ames.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ames.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: آلمان 5-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: false
+    servername: ger5.ravesib644.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger5.ravesib644.workers.dev
+    client-fingerprint: randomized
+  - name: آلمان 5-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: true
+    servername: ger5.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger5.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: کره-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: false
+    servername: kor.cemoped858.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: kor.cemoped858.workers.dev
+    client-fingerprint: randomized
+  - name: آلمان 4-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: true
+    servername: ger4.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger4.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: ژاپن-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: false
+    servername: jap.leverab904.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: jap.leverab904.workers.dev
+    client-fingerprint: randomized
+  - name: آمریکا 1-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 81b40464-4815-4474-a491-58871d0af559
+    tls: false
+    servername: usa.tejole2683.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: usa.tejole2683.workers.dev
+    client-fingerprint: randomized
+  - name: آمریکا 1-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: 81b40464-4815-4474-a491-58871d0af559
+    tls: true
+    servername: usa.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: usa.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: چین-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: false
+    servername: hon.rasikaf913.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hon.rasikaf913.workers.dev
+    client-fingerprint: randomized
   - name: آلمان 6-MCI-
     type: vless
     server: 108.162.194.28
@@ -342,6 +394,71 @@ proxies:
       headers:
         host: ger6.tegra.ultra.master.kiyan.online
     client-fingerprint: chrome
+  - name: آلمان 3-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: true
+    servername: ger3.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger3.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: آلمان 7-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: true
+    servername: ger7.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger7.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: آلمان 7-
+    type: vless
+    server: 108.162.194.28
+    port: 80
+    uuid: d64f5e28-8374-4f1e-90ac-adfc0083c121
+    tls: false
+    servername: ger7.maviyo5923.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger7.maviyo5923.workers.dev
+    client-fingerprint: randomized
+  - name: سنگاپور-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: true
+    servername: sin.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: sin.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
+  - name: دانمارک-MCI-
+    type: vless
+    server: 108.162.194.28
+    port: 443
+    uuid: 781fd277-e19f-4d41-b5e5-bf8448d226a9
+    tls: true
+    servername: den.tegra.ultra.master.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: den.tegra.ultra.master.kiyan.online
+    client-fingerprint: chrome
 proxy-groups:
   - name: All
     type: select
@@ -353,61 +470,79 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - هلند 1-
-      - ' (A) آلمان 1-'
-      - آمریکا 2-
-      - هلند 2-
-      - آمریکا 1-
-      - آلمان 4-MCI-
-      - آلمان 6-
-      - آلمان 5-MCI-
+      - ' (A) آلمان 1-MCI-'
       - آلمان 2-
-      - دانمارک-
-      - فرانسه-
-      - کره-
-      - چین-
-      - ' (B) آلمان 1-'
-      - آلمان 7-
+      - ' (B) آلمان 1-MCI-'
+      - کره-MCI-
       - آلمان 4-
-      - آلمان 3-
-      - آلمان 5-
-      - سنگاپور-
-      - آلمان 1-MCI-
-      - آلمان 7-MCI-
-      - ژاپن-
-      - آلمان 3-MCI-
+      - آمریکا 2-
+      - آلمان 6-
+      - ' (A) آلمان 1-'
+      - دانمارک-
+      - ژاپن-MCI-
+      - ' (B) آلمان 1-'
+      - آمریکا 2-MCI-
+      - هلند 2-MCI-
       - آلمان 2-MCI-
+      - هلند 2-
+      - هلند 1-
+      - سنگاپور-
+      - آلمان 3-
+      - چین-MCI-
+      - هلند 1-MCI-
+      - آلمان 5-
+      - آلمان 5-MCI-
+      - کره-
+      - آلمان 4-MCI-
+      - ژاپن-
+      - آمریکا 1-
+      - آمریکا 1-MCI-
+      - چین-
       - آلمان 6-MCI-
+      - آلمان 3-MCI-
+      - آلمان 7-MCI-
+      - آلمان 7-
+      - سنگاپور-MCI-
+      - دانمارک-MCI-
   - name: انتخاب سرور
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - هلند 1-
-      - ' (A) آلمان 1-'
-      - آمریکا 2-
-      - هلند 2-
-      - آمریکا 1-
-      - آلمان 4-MCI-
-      - آلمان 6-
-      - آلمان 5-MCI-
+      - ' (A) آلمان 1-MCI-'
       - آلمان 2-
-      - دانمارک-
-      - فرانسه-
-      - کره-
-      - چین-
-      - ' (B) آلمان 1-'
-      - آلمان 7-
+      - ' (B) آلمان 1-MCI-'
+      - کره-MCI-
       - آلمان 4-
-      - آلمان 3-
-      - آلمان 5-
-      - سنگاپور-
-      - آلمان 1-MCI-
-      - آلمان 7-MCI-
-      - ژاپن-
-      - آلمان 3-MCI-
+      - آمریکا 2-
+      - آلمان 6-
+      - ' (A) آلمان 1-'
+      - دانمارک-
+      - ژاپن-MCI-
+      - ' (B) آلمان 1-'
+      - آمریکا 2-MCI-
+      - هلند 2-MCI-
       - آلمان 2-MCI-
+      - هلند 2-
+      - هلند 1-
+      - سنگاپور-
+      - آلمان 3-
+      - چین-MCI-
+      - هلند 1-MCI-
+      - آلمان 5-
+      - آلمان 5-MCI-
+      - کره-
+      - آلمان 4-MCI-
+      - ژاپن-
+      - آمریکا 1-
+      - آمریکا 1-MCI-
+      - چین-
       - آلمان 6-MCI-
+      - آلمان 3-MCI-
+      - آلمان 7-MCI-
+      - آلمان 7-
+      - سنگاپور-MCI-
+      - دانمارک-MCI-
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
