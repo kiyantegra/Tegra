@@ -1,4 +1,4 @@
-vless://d64f5e28-8374-4f1e-90ac-adfc0083c121@108.162.194.28:443?encryption=none&security=tls&sni=gerutls1.kiyandoostan1245.workers.DEV&fp=chrome&type=ws&host=gerutls1.kiyandoostan1245.workers.DEV&path=%2F%3Fed%3D2048#Ger-UTLS
+vless://d64f5e28-8374-4f1e-90ac-adfc0083c121@108.162.194.28:443?encryption=none&security=tls&sni=gerutls1.yopah38604.workers.DEV&fp=chrome&type=ws&host=gerutls1.yopah38604.workers.DEV&path=%2F%3Fed%3D2048#Ger-UTLS
 vless://987cb848-2a42-4d56-8025-237b82be2985@108.162.194.28:443?encryption=none&security=tls&sni=ger.doostankiyan.workers.DEV&fp=chrome&type=ws&host=ger.doostankiyan.workers.DEV&path=%2F%3Fed%3D2048#Ger1%20%28A%29-TLS
 vless://987cb848-2a42-4d56-8025-237b82be2985@108.162.194.28:443?encryption=none&security=tls&sni=ger-b.dopew47926.workers.DEV&fp=chrome&type=ws&host=ger-b.dopew47926.workers.DEV&path=%2F%3Fed%3D2048#Ger1%20%28B%29-TLS
 vless://81b40464-4815-4474-a491-58871d0af559@108.162.194.28:443?encryption=none&security=tls&sni=ger2.jefihen900.workers.DEV&fp=chrome&type=ws&host=ger2.jefihen900.workers.DEV&path=%2F%3Fed%3D2048#Ger2-TLS
