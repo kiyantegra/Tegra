@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：02-12-2023 19:56:52
+# 创建时间：02-12-2023 20:02:08
 # 使用模版：V2RaySE 默认模版
 # 节点数量：18
 ####################################
@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Ger-UTLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"gerutls1.kiyandoostan1245.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerutls1.kiyandoostan1245.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger-UTLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"gerutls1.yopah38604.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerutls1.yopah38604.workers.DEV"}},"client-fingerprint":"chrome"}
   - {"name":"Ger1 (A)-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.doostankiyan.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.doostankiyan.workers.DEV"}},"client-fingerprint":"chrome"}
   - {"name":"Ger1 (B)-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger-b.dopew47926.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.dopew47926.workers.DEV"}},"client-fingerprint":"chrome"}
   - {"name":"Ger2-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"ger2.jefihen900.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.jefihen900.workers.DEV"}},"client-fingerprint":"chrome"}
