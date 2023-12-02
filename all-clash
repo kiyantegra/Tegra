@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：02-12-2023 18:55:33
+# 创建时间：02-12-2023 19:56:52
 # 使用模版：V2RaySE 默认模版
 # 节点数量：18
 ####################################
@@ -86,24 +86,24 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Ger-UTLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"gerutls1.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerutls1.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger1 (A)-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger1 (B)-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"gerb.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger2-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"ger2.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger3-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger3.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger4-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger4.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger5-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger6-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger7-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger8-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger8.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger9-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger9.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger9.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger10-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger10.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Turk-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"turk.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"turk.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ned1-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ames.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ned2-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ned.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ned.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Usa1-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"usa.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usa.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Usa2-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"usa2.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usa2.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Den-TLS","type":"vless","server":"108.162.194.28","port":8443,"uuid":"781fd277-e19f-4d41-b5e5-bf8448d226a9","tls":true,"servername":"den.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"den.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger-UTLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"gerutls1.kiyandoostan1245.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerutls1.kiyandoostan1245.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger1 (A)-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.doostankiyan.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.doostankiyan.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger1 (B)-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger-b.dopew47926.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.dopew47926.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger2-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"ger2.jefihen900.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.jefihen900.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger3-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger3.ninof68954.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.ninof68954.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger4-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger4.nexad50946.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.nexad50946.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger5-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.ravesib644.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.ravesib644.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger6-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.lepeyop919.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.lepeyop919.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger7-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.maviyo5923.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.maviyo5923.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger8-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger8.nojek57993.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.nojek57993.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger9-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger9.cegaxo2988.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger9.cegaxo2988.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger10-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger10.jeriy48630.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.jeriy48630.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Turk-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"turk.farok44987.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"turk.farok44987.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ames-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ames.xidax61188.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.xidax61188.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ned-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ned.kiyanultraspeed.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ned.kiyanultraspeed.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Usa1-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"usa.tejole2683.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usa.tejole2683.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Usa2-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"usa2.habeh27673.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usa2.habeh27673.workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Den-TLS","type":"vless","server":"108.162.194.28","port":443,"uuid":"781fd277-e19f-4d41-b5e5-bf8448d226a9","tls":true,"servername":"den.fixog76731.workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"den.fixog76731.workers.DEV"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -123,8 +123,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
@@ -147,8 +147,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
@@ -171,8 +171,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
@@ -194,8 +194,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
@@ -217,8 +217,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
@@ -240,8 +240,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
@@ -280,8 +280,8 @@ proxy-groups:
       - Ger9-TLS
       - Ger10-TLS
       - Turk-TLS
-      - Ned1-TLS
-      - Ned2-TLS
+      - Ames-TLS
+      - Ned-TLS
       - Usa1-TLS
       - Usa2-TLS
       - Den-TLS
