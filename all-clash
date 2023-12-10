@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：08-12-2023 11:19:14
+# 创建时间：11-12-2023 00:34:59
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：16
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,116 +86,151 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"France UTLS (TEST)","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"frutls.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"frutls.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(A)-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(B)-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"gerb.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 2-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 3-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger10.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 4-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 5-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger8.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 6-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Denmark-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"781fd277-e19f-4d41-b5e5-bf8448d226a9","tls":true,"servername":"den.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"den.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Amsterdam-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ames.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Usa-TLS","type":"vless","server":"104.21.228.231","port":443,"uuid":"81b40464-4815-4474-a491-58871d0af559","tls":true,"servername":"usa.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usa.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 1(A)","type":"vless","server":"162.159.152.2","port":80,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":false,"servername":"ger.doostankiyan.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.doostankiyan.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 1(A)-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 1(B)","type":"vless","server":"162.159.152.2","port":80,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":false,"servername":"ger-b.dopew47926.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.dopew47926.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 1(B)-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"gerb.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 2","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger5.ravesib644.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.ravesib644.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 2-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 3","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger10.jeriy48630.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.jeriy48630.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 3-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger10.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 4","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger7.maviyo5923.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.maviyo5923.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 4-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 5","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger8.nojek57993.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.nojek57993.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 5-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger8.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 6","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger6.lepeyop919.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.lepeyop919.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Germany 6-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Amsterdam","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ames.xidax61188.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.xidax61188.Workers.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Amsterdam-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ames.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,17 +253,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - France UTLS (TEST)
+      - Germany 1(A)
       - Germany 1(A)-TLS
+      - Germany 1(B)
       - Germany 1(B)-TLS
+      - Germany 2
       - Germany 2-TLS
+      - Germany 3
       - Germany 3-TLS
+      - Germany 4
       - Germany 4-TLS
+      - Germany 5
       - Germany 5-TLS
+      - Germany 6
       - Germany 6-TLS
-      - Denmark-TLS
+      - Amsterdam
       - Amsterdam-TLS
-      - Usa-TLS
 
 rules:
 # 本地/局域网地址
