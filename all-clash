@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：11-12-2023 01:45:49
+# 创建时间：13-12-2023 23:13:01
 # 使用模版：V2RaySE 默认模版
-# 节点数量：24
+# 节点数量：12
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,207 +86,123 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Germany 1(A)","type":"vless","server":"162.159.152.2","port":80,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":false,"servername":"ger.doostankiyan.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.doostankiyan.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(B)","type":"vless","server":"162.159.152.2","port":80,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":false,"servername":"ger-b.dopew47926.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.dopew47926.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 2","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger5.ravesib644.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.ravesib644.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 3","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger10.jeriy48630.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.jeriy48630.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 4","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger7.maviyo5923.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.maviyo5923.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 5","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger8.nojek57993.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.nojek57993.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 6","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ger6.lepeyop919.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.lepeyop919.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Amsterdam","type":"vless","server":"162.159.152.2","port":80,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":false,"servername":"ames.xidax61188.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.xidax61188.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(A)-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.doostankiyan.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.doostankiyan.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(B)-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger-b.dopew47926.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.dopew47926.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 2-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.ravesib644.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.ravesib644.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 3-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger10.jeriy48630.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.jeriy48630.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 4-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.maviyo5923.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.maviyo5923.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 5-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger8.nojek57993.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.nojek57993.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 6-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.lepeyop919.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.lepeyop919.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Amsterdam-UTLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ames.xidax61188.Workers.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.xidax61188.Workers.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(A)-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"ger.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 1(B)-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"987cb848-2a42-4d56-8025-237b82be2985","tls":true,"servername":"gerb.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 2-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger5.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 3-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger10.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger10.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 4-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger7.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger7.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 5-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger8.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger8.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Germany 6-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ger6.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger6.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Amsterdam-TLS","type":"vless","server":"162.159.152.2","port":443,"uuid":"d64f5e28-8374-4f1e-90ac-adfc0083c121","tls":true,"servername":"ames.tegra.ultra.master.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ames.tegra.ultra.master.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 1- (A)-MTN","type":"vless","server":"144.21.63.14","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 1-(A)-MCI","type":"vless","server":"130.162.222.227","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 1-(B)-MTN","type":"vless","server":"144.21.63.14","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger1-(B)-MCI","type":"vless","server":"130.162.222.227","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 2-MTN","type":"vless","server":"144.21.63.14","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 2-MCI","type":"vless","server":"130.162.222.227","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 3-MTN","type":"vless","server":"144.21.63.14","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 3-MCI","type":"vless","server":"130.162.222.227","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 4-MTN","type":"vless","server":"144.21.63.14","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 4-MCI","type":"vless","server":"130.162.222.227","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 5-MTN","type":"vless","server":"144.21.63.14","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 5-MCI","type":"vless","server":"130.162.222.227","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -309,30 +225,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Germany 1(A)
-      - Germany 1(B)
-      - Germany 2
-      - Germany 3
-      - Germany 4
-      - Germany 5
-      - Germany 6
-      - Amsterdam
-      - Germany 1(A)-UTLS
-      - Germany 1(B)-UTLS
-      - Germany 2-UTLS
-      - Germany 3-UTLS
-      - Germany 4-UTLS
-      - Germany 5-UTLS
-      - Germany 6-UTLS
-      - Amsterdam-UTLS
-      - Germany 1(A)-TLS
-      - Germany 1(B)-TLS
-      - Germany 2-TLS
-      - Germany 3-TLS
-      - Germany 4-TLS
-      - Germany 5-TLS
-      - Germany 6-TLS
-      - Amsterdam-TLS
+      - Ger 1- (A)-MTN
+      - Ger 1-(A)-MCI
+      - Ger 1-(B)-MTN
+      - Ger1-(B)-MCI
+      - Ger 2-MTN
+      - Ger 2-MCI
+      - Ger 3-MTN
+      - Ger 3-MCI
+      - Ger 4-MTN
+      - Ger 4-MCI
+      - Ger 5-MTN
+      - Ger 5-MCI
 
 rules:
 # 本地/局域网地址
