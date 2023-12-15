@@ -17,239 +17,161 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: G5-CF_همه ی اپراتورها-
+  - name: 4-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: false
+    servername: ger4.cacem92336.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger4.cacem92336.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: 4-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger4.cacem92336.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger4.cacem92336.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G1-(B)_UW-همراه اول-
-    type: vless
-    server: 43.157.17.4
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G2_UW-همراه اول-
-    type: vless
-    server: 43.157.17.4
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G3_UW-همراه اول-
-    type: vless
-    server: 43.157.17.4
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G3-CF_همه ی اپراتورها-
+  - name: 5-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger5.vemidiw826.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger5.vemidiw826.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G1-(B)-CF_همه ی اپراتورها-
+  - name: 1 (A)-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: false
+    servername: ger-a.siceho4216.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger-a.siceho4216.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: 1 (B)-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: false
+    servername: ger-b.lidaw34785.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger-b.lidaw34785.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: 1 (B)-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger-b.lidaw34785.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger-b.lidaw34785.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G4_UW-ایرانسل-
-    type: vless
-    server: 141.148.229.124
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G1-(A)_UW-همراه اول-
-    type: vless
-    server: 43.157.17.4
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G1-(A)-CF_همه ی اپراتورها-
+  - name: 1 (A)-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger-a.siceho4216.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger-a.siceho4216.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G5_UW-همراه اول-
+  - name: 5-
     type: vless
-    server: 43.157.17.4
-    port: 443
+    server: 104.21.14.159
+    port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    tls: false
+    servername: ger5.vemidiw826.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger5.vemidiw826.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G3_UW-ایرانسل-
-    type: vless
-    server: 141.148.229.124
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G2-CF_همه ی اپراتورها-
+  - name: 3-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger3.rewom59467.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger3.rewom59467.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G2_UW-ایرانسل-
+  - name: 2-
     type: vless
-    server: 141.148.229.124
-    port: 443
+    server: 104.21.14.159
+    port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    tls: false
+    servername: ger2.wajaj42598.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger2.wajaj42598.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G5_UW-ایرانسل-
-    type: vless
-    server: 141.148.229.124
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G1-(B)_UW-ایرانسل-
-    type: vless
-    server: 141.148.229.124
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G4-CF_همه ی اپراتورها-
+  - name: 2-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger2.wajaj42598.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger2.wajaj42598.WORKERS.DEV
     client-fingerprint: chrome
-  - name: G1-(A)_UW-ایرانسل-
+  - name: 3-
     type: vless
-    server: 141.148.229.124
-    port: 443
+    server: 104.21.14.159
+    port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    tls: false
+    servername: ger3.rewom59467.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    client-fingerprint: chrome
-  - name: G4_UW-همراه اول-
-    type: vless
-    server: 43.157.17.4
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger3.rewom59467.WORKERS.DEV
     client-fingerprint: chrome
 proxy-groups:
   - name: All
@@ -262,47 +184,35 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - G5-CF_همه ی اپراتورها-
-      - G1-(B)_UW-همراه اول-
-      - G2_UW-همراه اول-
-      - G3_UW-همراه اول-
-      - G3-CF_همه ی اپراتورها-
-      - G1-(B)-CF_همه ی اپراتورها-
-      - G4_UW-ایرانسل-
-      - G1-(A)_UW-همراه اول-
-      - G1-(A)-CF_همه ی اپراتورها-
-      - G5_UW-همراه اول-
-      - G3_UW-ایرانسل-
-      - G2-CF_همه ی اپراتورها-
-      - G2_UW-ایرانسل-
-      - G5_UW-ایرانسل-
-      - G1-(B)_UW-ایرانسل-
-      - G4-CF_همه ی اپراتورها-
-      - G1-(A)_UW-ایرانسل-
-      - G4_UW-همراه اول-
+      - 4-
+      - 4-UTLS-
+      - 5-UTLS-
+      - 1 (A)-
+      - 1 (B)-
+      - 1 (B)-UTLS-
+      - 1 (A)-UTLS-
+      - 5-
+      - 3-UTLS-
+      - 2-
+      - 2-UTLS-
+      - 3-
   - name: انتخاب سرور
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - G5-CF_همه ی اپراتورها-
-      - G1-(B)_UW-همراه اول-
-      - G2_UW-همراه اول-
-      - G3_UW-همراه اول-
-      - G3-CF_همه ی اپراتورها-
-      - G1-(B)-CF_همه ی اپراتورها-
-      - G4_UW-ایرانسل-
-      - G1-(A)_UW-همراه اول-
-      - G1-(A)-CF_همه ی اپراتورها-
-      - G5_UW-همراه اول-
-      - G3_UW-ایرانسل-
-      - G2-CF_همه ی اپراتورها-
-      - G2_UW-ایرانسل-
-      - G5_UW-ایرانسل-
-      - G1-(B)_UW-ایرانسل-
-      - G4-CF_همه ی اپراتورها-
-      - G1-(A)_UW-ایرانسل-
-      - G4_UW-همراه اول-
+      - 4-
+      - 4-UTLS-
+      - 5-UTLS-
+      - 1 (A)-
+      - 1 (B)-
+      - 1 (B)-UTLS-
+      - 1 (A)-UTLS-
+      - 5-
+      - 3-UTLS-
+      - 2-
+      - 2-UTLS-
+      - 3-
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
