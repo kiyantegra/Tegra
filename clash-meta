@@ -17,48 +17,9 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: 4-
+  - name: Ger 1 (A)-
     type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger4.cacem92336.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger4.cacem92336.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: 4-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger4.cacem92336.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger4.cacem92336.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: 5-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger5.vemidiw826.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger5.vemidiw826.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: 1 (A)-
-    type: vless
-    server: 104.21.14.159
+    server: 45.159.217.88
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -69,9 +30,9 @@ proxies:
       headers:
         host: ger-a.siceho4216.WORKERS.DEV
     client-fingerprint: chrome
-  - name: 1 (B)-
+  - name: Ger 1 (B)-
     type: vless
-    server: 104.21.14.159
+    server: 45.159.217.88
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -82,9 +43,87 @@ proxies:
       headers:
         host: ger-b.lidaw34785.WORKERS.DEV
     client-fingerprint: chrome
-  - name: 1 (B)-UTLS-
+  - name: Ger 3-UTLS-
     type: vless
-    server: 104.21.14.159
+    server: 45.159.217.88
+    port: 443
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: true
+    servername: ger3.rewom59467.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger3.rewom59467.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 4-UTLS-
+    type: vless
+    server: 45.159.217.88
+    port: 443
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: true
+    servername: ger4.cacem92336.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger4.cacem92336.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 2-
+    type: vless
+    server: 45.159.217.88
+    port: 80
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: false
+    servername: ger2.wajaj42598.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger2.wajaj42598.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 3-
+    type: vless
+    server: 45.159.217.88
+    port: 80
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: false
+    servername: ger3.rewom59467.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger3.rewom59467.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 5-UTLS-
+    type: vless
+    server: 45.159.217.88
+    port: 443
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: true
+    servername: ger5.vemidiw826.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger5.vemidiw826.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 4-
+    type: vless
+    server: 45.159.217.88
+    port: 80
+    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    tls: false
+    servername: ger4.cacem92336.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger4.cacem92336.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 1 (B)-UTLS-
+    type: vless
+    server: 45.159.217.88
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -95,22 +134,22 @@ proxies:
       headers:
         host: ger-b.lidaw34785.WORKERS.DEV
     client-fingerprint: chrome
-  - name: 1 (A)-UTLS-
+  - name: Ger 2-UTLS-
     type: vless
-    server: 104.21.14.159
+    server: 45.159.217.88
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: ger-a.siceho4216.WORKERS.DEV
+    servername: ger2.wajaj42598.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger-a.siceho4216.WORKERS.DEV
+        host: ger2.wajaj42598.WORKERS.DEV
     client-fingerprint: chrome
-  - name: 5-
+  - name: Ger 5-
     type: vless
-    server: 104.21.14.159
+    server: 45.159.217.88
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -121,57 +160,18 @@ proxies:
       headers:
         host: ger5.vemidiw826.WORKERS.DEV
     client-fingerprint: chrome
-  - name: 3-UTLS-
+  - name: Ger 1 (A)-UTLS-
     type: vless
-    server: 104.21.14.159
+    server: 45.159.217.88
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
-    servername: ger3.rewom59467.WORKERS.DEV
+    servername: ger-a.siceho4216.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger3.rewom59467.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: 2-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger2.wajaj42598.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger2.wajaj42598.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: 2-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger2.wajaj42598.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger2.wajaj42598.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: 3-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger3.rewom59467.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger3.rewom59467.WORKERS.DEV
+        host: ger-a.siceho4216.WORKERS.DEV
     client-fingerprint: chrome
 proxy-groups:
   - name: All
@@ -184,35 +184,35 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - 4-
-      - 4-UTLS-
-      - 5-UTLS-
-      - 1 (A)-
-      - 1 (B)-
-      - 1 (B)-UTLS-
-      - 1 (A)-UTLS-
-      - 5-
-      - 3-UTLS-
-      - 2-
-      - 2-UTLS-
-      - 3-
+      - Ger 1 (A)-
+      - Ger 1 (B)-
+      - Ger 3-UTLS-
+      - Ger 4-UTLS-
+      - Ger 2-
+      - Ger 3-
+      - Ger 5-UTLS-
+      - Ger 4-
+      - Ger 1 (B)-UTLS-
+      - Ger 2-UTLS-
+      - Ger 5-
+      - Ger 1 (A)-UTLS-
   - name: انتخاب سرور
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - 4-
-      - 4-UTLS-
-      - 5-UTLS-
-      - 1 (A)-
-      - 1 (B)-
-      - 1 (B)-UTLS-
-      - 1 (A)-UTLS-
-      - 5-
-      - 3-UTLS-
-      - 2-
-      - 2-UTLS-
-      - 3-
+      - Ger 1 (A)-
+      - Ger 1 (B)-
+      - Ger 3-UTLS-
+      - Ger 4-UTLS-
+      - Ger 2-
+      - Ger 3-
+      - Ger 5-UTLS-
+      - Ger 4-
+      - Ger 1 (B)-UTLS-
+      - Ger 2-UTLS-
+      - Ger 5-
+      - Ger 1 (A)-UTLS-
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
