@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：23-12-2023 02:36:58
+# 创建时间：23-12-2023 13:01:10
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：18
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -98,6 +98,12 @@ proxies:
   - {"name":"Ger 3-UTLS","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger3.rewom59467.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.rewom59467.WORKERS.DEV"}},"client-fingerprint":"chrome"}
   - {"name":"Ger 4-UTLS","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger4.cacem92336.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.cacem92336.WORKERS.DEV"}},"client-fingerprint":"chrome"}
   - {"name":"Ger 5-UTLS","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger5.vemidiw826.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.vemidiw826.WORKERS.DEV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 1 (A)-UTLS-CD","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 1 (B)-UTLS-CD","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 2-UTLS-CD","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 3-UTLS-CD","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 4-UTLS-CD","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"Ger 5-UTLS-CD","type":"vless","server":"45.159.217.88","port":443,"uuid":"5f09c652-b3e2-493a-8919-a1095792516c","tls":true,"servername":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -116,6 +122,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -134,6 +146,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -152,6 +170,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
   - name: 📲 电报信息
     type: select
     proxies:
@@ -169,6 +193,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -186,6 +216,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -203,6 +239,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,6 +279,12 @@ proxy-groups:
       - Ger 3-UTLS
       - Ger 4-UTLS
       - Ger 5-UTLS
+      - Ger 1 (A)-UTLS-CD
+      - Ger 1 (B)-UTLS-CD
+      - Ger 2-UTLS-CD
+      - Ger 3-UTLS-CD
+      - Ger 4-UTLS-CD
+      - Ger 5-UTLS-CD
 
 rules:
 # 本地/局域网地址
