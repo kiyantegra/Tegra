@@ -19,7 +19,7 @@ dns:
 proxies:
   - name: Ger 5-UTLS-CD-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -32,7 +32,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 1 (A)-UTLS-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -45,7 +45,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 3-UTLS-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -58,7 +58,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 4-UTLS-CD-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -71,7 +71,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 5-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -84,7 +84,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 3-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -97,7 +97,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 2-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -110,7 +110,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 1 (B)-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -123,7 +123,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 4-UTLS-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -136,7 +136,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 2-UTLS-CD-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -149,7 +149,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 4-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -162,7 +162,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 1 (A)-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 80
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: false
@@ -175,7 +175,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 1 (B)-UTLS-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -188,7 +188,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 2-UTLS-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -201,7 +201,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 3-UTLS-CD-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -214,7 +214,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 1 (B)-UTLS-CD-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -227,7 +227,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 5-UTLS-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
@@ -240,7 +240,7 @@ proxies:
     client-fingerprint: chrome
   - name: Ger 1 (A)-UTLS-CD-
     type: vless
-    server: 45.159.217.88
+    server: 104.21.14.159
     port: 443
     uuid: 5f09c652-b3e2-493a-8919-a1095792516c
     tls: true
