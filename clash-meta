@@ -17,50 +17,89 @@ dns:
     - https://dns.google/dns-query
     - tls://dns.google:853
 proxies:
-  - name: Ger 5-UTLS-CD-
+  - name: Ger 5-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
-    servername: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    servername: ger5-uwtdl.kiyandoostan1245.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+        host: ger5-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 1 (B)-UTLS-
+    type: vless
+    server: 104.21.14.159
+    port: 443
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: true
+    servername: ger1-b-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger1-b-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 1 (A)-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: false
+    servername: ger1-a-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger1-a-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 5-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: false
+    servername: ger5-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger5-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 1 (B)-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: false
+    servername: ger1-b-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger1-b-uwtdl.kiyandoostan1245.WORKERS.DEV
     client-fingerprint: chrome
   - name: Ger 1 (A)-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
-    servername: ger-a.siceho4216.WORKERS.DEV
+    servername: ger1-a-uwtdl.kiyandoostan1245.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger-a.siceho4216.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 3-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger3.rewom59467.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger3.rewom59467.WORKERS.DEV
+        host: ger1-a-uwtdl.kiyandoostan1245.WORKERS.DEV
     client-fingerprint: chrome
   - name: Ger 4-UTLS-CD-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
     servername: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     network: ws
@@ -69,76 +108,11 @@ proxies:
       headers:
         host: ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     client-fingerprint: chrome
-  - name: Ger 5-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger5.vemidiw826.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger5.vemidiw826.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 3-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger3.rewom59467.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger3.rewom59467.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 2-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger2.wajaj42598.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger2.wajaj42598.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 1 (B)-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger-b.lidaw34785.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger-b.lidaw34785.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 4-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger4.cacem92336.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger4.cacem92336.WORKERS.DEV
-    client-fingerprint: chrome
   - name: Ger 2-UTLS-CD-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
     servername: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     network: ws
@@ -147,63 +121,24 @@ proxies:
       headers:
         host: ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     client-fingerprint: chrome
-  - name: Ger 4-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger4.cacem92336.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger4.cacem92336.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 1 (A)-
-    type: vless
-    server: 104.21.14.159
-    port: 80
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: false
-    servername: ger-a.siceho4216.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger-a.siceho4216.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 1 (B)-UTLS-
+  - name: Ger 4-UTLS-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
-    servername: ger-b.lidaw34785.WORKERS.DEV
+    servername: ger4-uwtdl.kiyandoostan1245.WORKERS.DEV
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        host: ger-b.lidaw34785.WORKERS.DEV
-    client-fingerprint: chrome
-  - name: Ger 2-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger2.wajaj42598.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger2.wajaj42598.WORKERS.DEV
+        host: ger4-uwtdl.kiyandoostan1245.WORKERS.DEV
     client-fingerprint: chrome
   - name: Ger 3-UTLS-CD-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
     servername: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     network: ws
@@ -212,11 +147,37 @@ proxies:
       headers:
         host: ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     client-fingerprint: chrome
+  - name: Ger 3-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: false
+    servername: ger3-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger3-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 3-UTLS-
+    type: vless
+    server: 104.21.14.159
+    port: 443
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: true
+    servername: ger3-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger3-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
   - name: Ger 1 (B)-UTLS-CD-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
     servername: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     network: ws
@@ -225,24 +186,11 @@ proxies:
       headers:
         host: gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     client-fingerprint: chrome
-  - name: Ger 5-UTLS-
-    type: vless
-    server: 104.21.14.159
-    port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
-    tls: true
-    servername: ger5.vemidiw826.WORKERS.DEV
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ger5.vemidiw826.WORKERS.DEV
-    client-fingerprint: chrome
   - name: Ger 1 (A)-UTLS-CD-
     type: vless
     server: 104.21.14.159
     port: 443
-    uuid: 5f09c652-b3e2-493a-8919-a1095792516c
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
     tls: true
     servername: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
     network: ws
@@ -250,6 +198,58 @@ proxies:
       path: /?ed=2048
       headers:
         host: gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    client-fingerprint: chrome
+  - name: Ger 5-UTLS-CD-
+    type: vless
+    server: 104.21.14.159
+    port: 443
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: true
+    servername: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online
+    client-fingerprint: chrome
+  - name: Ger 4-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: false
+    servername: ger4-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger4-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 2-UTLS-
+    type: vless
+    server: 104.21.14.159
+    port: 443
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: true
+    servername: ger2-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger2-uwtdl.kiyandoostan1245.WORKERS.DEV
+    client-fingerprint: chrome
+  - name: Ger 2-
+    type: vless
+    server: 104.21.14.159
+    port: 80
+    uuid: ce6aaacd-ec7e-490a-b8a5-7eee2006b908
+    tls: false
+    servername: ger2-uwtdl.kiyandoostan1245.WORKERS.DEV
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: ger2-uwtdl.kiyandoostan1245.WORKERS.DEV
     client-fingerprint: chrome
 proxy-groups:
   - name: All
@@ -262,47 +262,47 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - Ger 5-UTLS-CD-
-      - Ger 1 (A)-UTLS-
-      - Ger 3-UTLS-
-      - Ger 4-UTLS-CD-
-      - Ger 5-
-      - Ger 3-
-      - Ger 2-
-      - Ger 1 (B)-
-      - Ger 4-UTLS-
-      - Ger 2-UTLS-CD-
-      - Ger 4-
-      - Ger 1 (A)-
-      - Ger 1 (B)-UTLS-
-      - Ger 2-UTLS-
-      - Ger 3-UTLS-CD-
-      - Ger 1 (B)-UTLS-CD-
       - Ger 5-UTLS-
+      - Ger 1 (B)-UTLS-
+      - Ger 1 (A)-
+      - Ger 5-
+      - Ger 1 (B)-
+      - Ger 1 (A)-UTLS-
+      - Ger 4-UTLS-CD-
+      - Ger 2-UTLS-CD-
+      - Ger 4-UTLS-
+      - Ger 3-UTLS-CD-
+      - Ger 3-
+      - Ger 3-UTLS-
+      - Ger 1 (B)-UTLS-CD-
       - Ger 1 (A)-UTLS-CD-
+      - Ger 5-UTLS-CD-
+      - Ger 4-
+      - Ger 2-UTLS-
+      - Ger 2-
   - name: انتخاب سرور
     type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - Ger 5-UTLS-CD-
-      - Ger 1 (A)-UTLS-
-      - Ger 3-UTLS-
-      - Ger 4-UTLS-CD-
-      - Ger 5-
-      - Ger 3-
-      - Ger 2-
-      - Ger 1 (B)-
-      - Ger 4-UTLS-
-      - Ger 2-UTLS-CD-
-      - Ger 4-
-      - Ger 1 (A)-
-      - Ger 1 (B)-UTLS-
-      - Ger 2-UTLS-
-      - Ger 3-UTLS-CD-
-      - Ger 1 (B)-UTLS-CD-
       - Ger 5-UTLS-
+      - Ger 1 (B)-UTLS-
+      - Ger 1 (A)-
+      - Ger 5-
+      - Ger 1 (B)-
+      - Ger 1 (A)-UTLS-
+      - Ger 4-UTLS-CD-
+      - Ger 2-UTLS-CD-
+      - Ger 4-UTLS-
+      - Ger 3-UTLS-CD-
+      - Ger 3-
+      - Ger 3-UTLS-
+      - Ger 1 (B)-UTLS-CD-
       - Ger 1 (A)-UTLS-CD-
+      - Ger 5-UTLS-CD-
+      - Ger 4-
+      - Ger 2-UTLS-
+      - Ger 2-
 rules:
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,ir,DIRECT
