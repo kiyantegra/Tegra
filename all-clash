@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：27-05-2024 01:20:26
+# 创建时间：27-05-2024 01:53:36
 # 使用模版：V2RaySE 默认模版
-# 节点数量：20
+# 节点数量：1
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,179 +86,46 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"ETG+1_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg1.yopah38604.workers.dev/","headers":{"host":"5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com"}}}
-  - {"name":"ETG+1_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg1.yopah38604.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg1.yopah38604.workers.dev"}}}
-  - {"name":"ETG+2_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg2.yicixi5390.workers.dev/","headers":{"host":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"}}}
-  - {"name":"ETG+2_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg2.yicixi5390.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg2.yicixi5390.workers.dev"}}}
-  - {"name":"ETG+3_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg3.yepeway286.workers.dev/","headers":{"host":"ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"}}}
-  - {"name":"ETG+3_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg3.yepeway286.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg3.yepeway286.workers.dev"}}}
-  - {"name":"ETG+4_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg4.maviyo5923.workers.dev/","headers":{"host":"3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"}}}
-  - {"name":"ETG+4_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg4.maviyo5923.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg4.maviyo5923.workers.dev"}}}
-  - {"name":"ETG+5_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg5.jeriy48630.workers.dev/","headers":{"host":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"}}}
-  - {"name":"ETG+5_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg5.jeriy48630.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg5.jeriy48630.workers.dev"}}}
-  - {"name":"OMEGA 1","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega1.cegaxo2988.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega1.cegaxo2988.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 1-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega1.cegaxo2988.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega1.cegaxo2988.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 2","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega2.dekava5308.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega2.dekava5308.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 2-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega2.dekava5308.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega2.dekava5308.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 3","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega3.denar57751.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega3.denar57751.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 3-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega3.denar57751.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega3.denar57751.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 4","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega4.dojafos707.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega4.dojafos707.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 4-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega4.dojafos707.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega4.dojafos707.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 5","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega5.dopew47926.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega5.dopew47926.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
-  - {"name":"OMEGA 5-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega5.dopew47926.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega5.dopew47926.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"Ultra+","type":"vless","server":"kanoon.ir","port":443,"uuid":"7c8a2365-b061-4963-8172-2c6b27198c23","tls":true,"servername":"ultra-2f50c98c48-kiyan.apps.ir-tbz-sh1.arvancaas.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"ultra-2f50c98c48-kiyan.apps.ir-tbz-sh1.arvancaas.ir"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -281,26 +148,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ETG+1_MCI
-      - ETG+1_MTN
-      - ETG+2_MCI
-      - ETG+2_MTN
-      - ETG+3_MCI
-      - ETG+3_MTN
-      - ETG+4_MCI
-      - ETG+4_MTN
-      - ETG+5_MCI
-      - ETG+5_MTN
-      - OMEGA 1
-      - OMEGA 1-TLS
-      - OMEGA 2
-      - OMEGA 2-TLS
-      - OMEGA 3
-      - OMEGA 3-TLS
-      - OMEGA 4
-      - OMEGA 4-TLS
-      - OMEGA 5
-      - OMEGA 5-TLS
+      - Ultra+
 
 rules:
 # 本地/局域网地址
