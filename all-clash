@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：26-12-2023 18:46:15
+# 创建时间：27-05-2024 01:20:26
 # 使用模版：V2RaySE 默认模版
-# 节点数量：18
+# 节点数量：20
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,165 +86,179 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Ger 1 (A)","type":"vless","server":"104.21.14.159","port":80,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":false,"servername":"ger-a.siceho4216.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-a.siceho4216.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 1 (B)","type":"vless","server":"104.21.14.159","port":80,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":false,"servername":"ger-b.lidaw34785.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.lidaw34785.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 2","type":"vless","server":"104.21.14.159","port":80,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":false,"servername":"ger2.wajaj42598.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.wajaj42598.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 3","type":"vless","server":"104.21.14.159","port":80,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":false,"servername":"ger3.rewom59467.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.rewom59467.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 4","type":"vless","server":"104.21.14.159","port":80,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":false,"servername":"ger4.cacem92336.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.cacem92336.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 5","type":"vless","server":"104.21.14.159","port":80,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":false,"servername":"ger5.vemidiw826.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.vemidiw826.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 1 (A)-UTLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger-a.siceho4216.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-a.siceho4216.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 1 (B)-UTLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger-b.lidaw34785.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger-b.lidaw34785.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 2-UTLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger2.wajaj42598.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2.wajaj42598.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 3-UTLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger3.rewom59467.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3.rewom59467.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 4-UTLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger4.cacem92336.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4.cacem92336.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 5-UTLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger5.vemidiw826.WORKERS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5.vemidiw826.WORKERS.DEV"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 1 (A)-UTLS-CD","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gera-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 1 (B)-UTLS-CD","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"gerb-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 2-UTLS-CD","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger2-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 3-UTLS-CD","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger3-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 4-UTLS-CD","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger4-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
-  - {"name":"Ger 5-UTLS-CD","type":"vless","server":"104.21.14.159","port":443,"uuid":"ce6aaacd-ec7e-490a-b8a5-7eee2006b908","tls":true,"servername":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ger5-uwtdl.navi6.polaris8.add4.havik.ashrah.kiyan.online"}},"client-fingerprint":"chrome"}
+  - {"name":"ETG+1_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg1.yopah38604.workers.dev/","headers":{"host":"5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com"}}}
+  - {"name":"ETG+1_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg1.yopah38604.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg1.yopah38604.workers.dev"}}}
+  - {"name":"ETG+2_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg2.yicixi5390.workers.dev/","headers":{"host":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"}}}
+  - {"name":"ETG+2_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg2.yicixi5390.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg2.yicixi5390.workers.dev"}}}
+  - {"name":"ETG+3_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg3.yepeway286.workers.dev/","headers":{"host":"ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"}}}
+  - {"name":"ETG+3_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg3.yepeway286.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg3.yepeway286.workers.dev"}}}
+  - {"name":"ETG+4_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg4.maviyo5923.workers.dev/","headers":{"host":"3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"}}}
+  - {"name":"ETG+4_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg4.maviyo5923.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg4.maviyo5923.workers.dev"}}}
+  - {"name":"ETG+5_MCI","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/etg5.jeriy48630.workers.dev/","headers":{"host":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"}}}
+  - {"name":"ETG+5_MTN","type":"trojan","server":"104.21.14.159","port":443,"udp":true,"password":"auto","sni":"etg5.jeriy48630.workers.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"etg5.jeriy48630.workers.dev"}}}
+  - {"name":"OMEGA 1","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega1.cegaxo2988.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega1.cegaxo2988.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 1-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega1.cegaxo2988.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega1.cegaxo2988.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 2","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega2.dekava5308.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega2.dekava5308.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 2-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega2.dekava5308.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega2.dekava5308.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 3","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega3.denar57751.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega3.denar57751.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 3-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega3.denar57751.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega3.denar57751.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 4","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega4.dojafos707.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega4.dojafos707.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 4-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega4.dojafos707.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega4.dojafos707.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 5","type":"vless","server":"104.21.14.159","port":80,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":false,"servername":"omega5.dopew47926.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega5.dopew47926.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
+  - {"name":"OMEGA 5-TLS","type":"vless","server":"104.21.14.159","port":443,"uuid":"b39282ea-1acc-4fbb-9b8b-8ca2c575115f","tls":true,"servername":"omega5.dopew47926.WOrkErs.DeV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"omega5.dopew47926.WOrkErs.DeV"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -267,24 +281,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Ger 1 (A)
-      - Ger 1 (B)
-      - Ger 2
-      - Ger 3
-      - Ger 4
-      - Ger 5
-      - Ger 1 (A)-UTLS
-      - Ger 1 (B)-UTLS
-      - Ger 2-UTLS
-      - Ger 3-UTLS
-      - Ger 4-UTLS
-      - Ger 5-UTLS
-      - Ger 1 (A)-UTLS-CD
-      - Ger 1 (B)-UTLS-CD
-      - Ger 2-UTLS-CD
-      - Ger 3-UTLS-CD
-      - Ger 4-UTLS-CD
-      - Ger 5-UTLS-CD
+      - ETG+1_MCI
+      - ETG+1_MTN
+      - ETG+2_MCI
+      - ETG+2_MTN
+      - ETG+3_MCI
+      - ETG+3_MTN
+      - ETG+4_MCI
+      - ETG+4_MTN
+      - ETG+5_MCI
+      - ETG+5_MTN
+      - OMEGA 1
+      - OMEGA 1-TLS
+      - OMEGA 2
+      - OMEGA 2-TLS
+      - OMEGA 3
+      - OMEGA 3-TLS
+      - OMEGA 4
+      - OMEGA 4-TLS
+      - OMEGA 5
+      - OMEGA 5-TLS
 
 rules:
 # 本地/局域网地址
