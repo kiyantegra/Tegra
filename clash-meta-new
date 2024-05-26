@@ -291,8 +291,8 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - تست پینگ
-      - All - انتخاب سرور
+      - تست پینگ
+      - انتخاب سرور
   - name: تست پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
