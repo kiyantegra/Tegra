@@ -291,39 +291,35 @@ proxy-groups:
   - name: All
     type: select
     proxies:
-      - All - UrlTest
-      - All - Fallback
-      - All - LoadBalance(ch)
-      - All - LoadBalance(rr)
-      - Original-
-  - name: All - UrlTest
+      - All - تست پینگ
+      - All - انتخاب سرور
+  - name: تست پینگ
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
-      - Original-
-  - name: All - Fallback
-    type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-
-  - name: All - LoadBalance(ch)
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-
-  - name: All - LoadBalance(rr)
-    type: load-balance
-    strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 10
-    proxies:
-      - Original-
-  - name: Original-
-    type: url-test
+      - OMEGA 3-TLS-
+      - ETG+4_MCI-
+      - ETG+5_MTN-
+      - ETG+2_MTN-
+      - ETG+5_MCI-
+      - ETG+4_MTN-
+      - ETG+2_MCI-
+      - ETG+1_MTN-
+      - OMEGA 2-
+      - OMEGA 3-
+      - ETG+3_MCI-
+      - OMEGA 1-TLS-
+      - OMEGA 5-TLS-
+      - OMEGA 4-
+      - ETG+1_MCI-
+      - OMEGA 1-
+      - ETG+3_MTN-
+      - OMEGA 4-TLS-
+      - OMEGA 5-
+      - OMEGA 2-TLS-
+  - name: انتخاب سرور
+    type: select
     url: http://clients3.google.com/generate_204
     interval: 10
     proxies:
