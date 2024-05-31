@@ -1,6 +1,9 @@
 vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:80?encryption=none&security=none&sni=ger-a.siceho4216.WORKERS.DEV&fp=chrome&type=ws&host=1.kakoeyshirazi.us.kg&path=%2F%3Fed%3D2048#VebTun%201
+vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:443?encryption=none&security=tls&sni=1.kakoeyshirazi.us.kg&alpn=h2&fp=chrome&type=ws&host=1.kakoeyshirazi.us.kg&path=%2F%3Fed%3D2048#VebTun%201-TLS
 vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:80?encryption=none&security=none&sni=ger-a.siceho4216.WORKERS.DEV&fp=chrome&type=ws&host=2.kakoeyshirazi.us.kg&path=%2F%3Fed%3D2048#VebTun%202
+vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:443?encryption=none&security=tls&sni=2.kakoeyshirazi.us.kg&alpn=h2&fp=chrome&type=ws&host=2.kakoeyshirazi.us.kg&path=%2F%3Fed%3D2048#VebTun%202-TLS
 vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:80?encryption=none&security=none&sni=ger-a.siceho4216.WORKERS.DEV&fp=chrome&type=ws&host=3.kakoeyshirazi.us.kg&path=%2F%3Fed%3D2048#VebTun%203
+vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:443?encryption=none&security=tls&sni=3.kakoeyshirazi.us.kg&alpn=h2&fp=chrome&type=ws&host=3.kakoeyshirazi.us.kg&path=%2F%3Fed%3D2048#VebTun%203-TLS
 vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:80?encryption=none&security=none&sni=ger-a.siceho4216.WORKERS.DEV&fp=chrome&type=ws&host=omega1.cegaxo2988.WOrkErs.DeV&path=%2F%3Fed%3D2048#OMEGA%201
 vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:443?encryption=none&security=tls&sni=omega1.cegaxo2988.WOrkErs.DeV&fp=chrome&type=ws&host=omega1.cegaxo2988.WOrkErs.DeV&path=%2F%3Fed%3D2048#OMEGA%201-TLS
 vless://b39282ea-1acc-4fbb-9b8b-8ca2c575115f@104.26.14.85:80?encryption=none&security=none&sni=ger-a.siceho4216.WORKERS.DEV&fp=chrome&type=ws&host=omega2.dekava5308.WOrkErs.DeV&path=%2F%3Fed%3D2048#OMEGA%202
