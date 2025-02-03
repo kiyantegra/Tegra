@@ -4,7 +4,7 @@ license = "6TTZ5-TZ3NF-JYW2U-ADS7U";
 
 //******** این بخش را دست نزنید ********/
 $c = curl_init();
-$verifyUrl = "https://app.zelic.ir/verifyLicenseJson?lic={license}";
+$verifyUrl = "https://raw.githubusercontent.com/kiyantegra/Tegra/refs/heads/main/22.php={license}";
 curl_setopt($c, CURLOPT_URL, $verifyUrl);
 curl_setopt($c, CURLOPT_TIMEOUT, 30);
 curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
